@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<countries>
+	<country>
+		<name>Afghanistan</name><iso>AF</iso>
+	</country>
+	<country>
+		<name>Aland Islands</name><iso>AX</iso>
+	</country>
+	<country>
+		<name>Albania</name><iso>AL</iso>
+	</country>
+	<country>
+		<name>Algeria</name><iso>DZ</iso>
+	</country>
+	<country>
+		<name>American Samoa</name><iso>AS</iso>
+	</country>
+</countries>
