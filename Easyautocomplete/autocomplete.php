@@ -1,5 +1,5 @@
 <!-- Using jQuery with a CDN -->
-<script src="js/jquery-3.2.1.min.js"></script>
+<script src="../js/jquery-3.2.1.min.js"></script>
 <!-- JS file -->
 <script src="EasyAutocomplete-1.3.5/jquery.easy-autocomplete.min.js"></script> 
 
@@ -22,7 +22,7 @@ $("#basics").easyAutocomplete(options);
 <input id="provider-file" /> File Source
 <script>
 var options = {
-    url: "resources/colors.js"
+    url: "../resources/colors.js"
 };
 
 $("#provider-file").easyAutocomplete(options);
@@ -32,7 +32,7 @@ $("#provider-file").easyAutocomplete(options);
 <input id="provider-json" /> JSON Source
 <script>
 var options = {
-    url: "resources/countries.json",
+    url: "../resources/countries.json",
     theme: "yellow", // dark,blue,purple,yellow,blue-light,green-light,bootstrap
     getValue: function(element) {
 	return element.name;
@@ -51,7 +51,7 @@ $("#provider-json").easyAutocomplete(options);
 <input id="provider-xml" /> XML Source
 <script>
 var options = {
-	url: "resources/countries.xml",
+	url: "../resources/countries.xml",
 
 	dataType: "xml",
 	xmlElementName: "country",
