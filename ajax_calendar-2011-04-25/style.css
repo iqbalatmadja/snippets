@@ -1,0 +1,115 @@
+/*table for calendar header with month, year etc*/
+.ajax_calendar_header
+{
+	border:0;
+	width:250px;
+}
+/*table cell that contains month and year*/
+.ajax_calendar_main_date
+{
+	font-weight: bold;
+	width: 60%;
+	text-align: center;
+}
+/*table cell of link to switch to previous month when active (means can be switched to previuos months)*/
+.ajax_calendar_prev_month_active 
+{
+	width: 10%;
+	font-weight: bold;
+}
+/*customizing link inside of active cell (inactive cells doesn't have links)*/
+.ajax_calendar_prev_month_active a
+{
+	text-decoration: none;
+}
+/*table cell of link to switch to previous month when inactive (means can not be switched to previous months because of start_date restriction)*/
+.ajax_calendar_prev_month_inactive
+{
+	width: 10%;
+	color: gray;
+}
+/*table cell of link to switch to previous year when active*/
+.ajax_calendar_prev_year_active
+{
+	width: 10%;
+	font-weight: bold;
+}
+/*customizing link inside of active cell (inactive cells doesn't have links)*/
+.ajax_calendar_prev_year_active a
+{
+	text-decoration: none;
+}
+/*table cell of link to switch to previous year when inactive*/
+.ajax_calendar_prev_year_inactive
+{
+	width: 10%;
+	color: gray;
+}
+/*table cell of link to switch to next month when active*/
+.ajax_calendar_next_month_active
+{
+	width: 10%;
+	font-weight: bold;
+}
+/*customizing link inside of active cell (inactive cells doesn't have links)*/
+.ajax_calendar_next_month_active a
+{
+	text-decoration: none;
+}
+/*table cell of link to switch to next month when inactive*/
+.ajax_calendar_next_month_inactive
+{
+	width: 10%;
+	color: gray;
+}
+/*table cell of link to switch to next year when active*/
+.ajax_calendar_next_year_active
+{
+	width: 10%;
+	font-weight: bold;
+}
+/*customizing link inside of active cell (inactive cells doesn't have links)*/
+.ajax_calendar_next_year_active a
+{
+	text-decoration: none;
+}
+/*table cell of link to switch to next year when inactive*/
+.ajax_calendar_next_year_inactive
+{
+	width: 10%;
+	color: gray;
+}
+/*table with calendar itself*/
+.ajax_calendar
+{
+	border:6px outset black;
+	width:250px;
+}
+/*cells of calendar*/
+.ajax_calendar td
+{
+	border: 1px solid black;
+	text-align: center;
+}
+/*table row with days of the week*/
+.ajax_calendar_weekdays
+{
+	font-weight: bold;
+}
+/*table cells with inactive days from previous or next months*/
+.ajax_calendar_inactive_days
+{
+	color:black; 
+	background-color: gray;
+}
+/*table cells with active days from currently selected month*/
+.ajax_calendar_active_days
+{
+	color: blue;
+}
+/*table cell with currently selected date*/
+.ajax_calendar_today_days
+{
+	color: red;
+	background-color: yellow;
+}
